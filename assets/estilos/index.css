@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'cooper_hewittbook';
+  src: url('../fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2') format('woff2'),
+       url('../fonts/cooper-hewitt/cooperhewitt-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+h1 {
+  font-family: 'cooper_hewittbook', serif;
+}
