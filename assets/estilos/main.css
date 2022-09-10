@@ -1,3 +1,5 @@
+@import 'the-new-css-reset.css';
+
 @font-face {
   font-family: 'cooper_hewittbook';
   src: url('../fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2') format('woff2'),
