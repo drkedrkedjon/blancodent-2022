@@ -181,8 +181,9 @@ body {
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 72rem;
   margin-inline: auto;
+  padding-inline: 0.8rem;
 }
 
 /* Esta clase sirve para ocultar visualmente el contenido que usan 
@@ -225,7 +226,7 @@ los usuarios con problema visual*/
 
 .btn-invertido {
   background-color: hsla(var(--clr-oscuro));
-  color: hsla(var(--clr-blanco));
+  color: hsla(var(--clr-acento));
 }
 
 .link-base {
@@ -279,7 +280,73 @@ los usuarios con problema visual*/
 .card-contenido {
   flex-direction: column;
 }
-  
+
+.card-btn {
+  margin-block: 1rem;
+  align-self: center;
+}
+
+@media(min-width: 40rem) and (max-width: 61.999rem) {
+  .card {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .card-media {
+    aspect-ratio: 12/16;
+    flex-grow: 0;
+    flex-basis: 14rem;
+  }
+  .card-container :nth-child(even) .card-media {
+    order: 1;
+  }
+  .card-contenido {
+    flex-grow: 1;
+    flex-basis: 10rem;
+  }
+  .card-btn {
+    align-self: flex-end;
+  }
+  .card-container :nth-child(even) .card-contenido .card-btn {
+    align-self: flex-start;
+  }
+}
+
+@media (min-width: 62rem) {
+  .card-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .card {
+    flex-basis: 16rem;
+    flex-grow: 1;
+  }
+  .card-btn {
+    align-self: flex-start;
+  }
+}
+
+/*  Acción bloque */
+
+.action {
+  padding-block: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.action-btn {
+  margin-block: 1rem;
+  text-align: center;
+}
+
+@media( min-width: 48rem) {
+  .action {
+    grid-template-columns: 5fr 3fr;
+    padding-block: 6rem; 
+  }
+  .action-btn {
+    text-align: right;
+    align-self: center;
+  }
+}  
 
 
 
