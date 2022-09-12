@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/estilos/main.css" />
     <style>
       body { 
-        padding: 2rem;
+        margin-bottom: 10rem;
+        /* padding: 2rem; */
         /* --flow-espacio: 2rem; */
       }
       .colores > div {
@@ -48,11 +49,15 @@
       <div class="fondo-negro">5</div>
     </div>
     <h1 class="fs-900">Botones</h1>
-    <div class="flex botones">
-      <button class="btn-base btn-acento">Todos los botones</button>
-      <button class="btn-base btn-invertido">Todos los botones</button>
-      <a href="#" class="link-base link-acento">Todos los enlaces</a>
-      <a href="#" class="link-base link-invertido fs-300">Todos los enlaces</a>
+    <div class=" botones">
+      <div>
+        <button class="btn-base btn-acento">Todos los botones</button>
+        <button class="btn-base btn-invertido">Todos los botones</button>
+      </div>
+      <div>
+        <a href="#" class="link-base link-acento">Todos los enlaces</a>
+        <a href="#" class="link-base link-invertido fs-300">Todos los enlaces</a>
+      </div>
     </div>
     <h1 class="fs-900">Tarjetas</h1>
     <div class="flex container card-container">
@@ -66,22 +71,34 @@
         </div>
       </div>
 
-
-
-      <div class="card">
+      <div class="card flex">
         <div class="card-media"><img src="./assets/images/imagen-prueba.jpeg" alt=""></div>
-        <div class="card-contenido">
+        <div class="card-contenido flex">
           <div class="card-titulo"><h3 class="ff-bold fs-600 mayuscula">El personal</h3></div>
           <div class="card-texto"><p>No hay nada mejor que una buena foto, ¿o no? Tenemos suerte de tener a un fotógrafo muy “güay” en la familia (es el mismo que hizo esta web y los dibujitos) y nos aprovechamos de él un poquito (jeje). Bueno... tampoco estamos como para salir en las portadas de las revistas. Pero bueno, aquí nos puedes ver: El Personal preparado, amable y atento.</p></div>
           <div class="card-btn "><a href="#" class="link-base link-acento">Ver gente buena</a></div>
         </div>
       </div>
-      <div class="card">
+
+      <div class="card flex">
         <div class="card-media"><img src="./assets/images/imagen-prueba.jpeg" alt=""></div>
-        <div class="card-contenido">
+        <div class="card-contenido flex">
           <div class="card-titulo"><h3 class="ff-bold fs-600 mayuscula">El personal</h3></div>
           <div class="card-texto"><p>No hay nada mejor que una buena foto, ¿o no? Tenemos suerte de tener a un fotógrafo muy “güay” en la familia (es el mismo que hizo esta web y los dibujitos) y nos aprovechamos de él un poquito (jeje). Bueno... tampoco estamos como para salir en las portadas de las revistas. Pero bueno, aquí nos puedes ver: El Personal preparado, amable y atento.</p></div>
           <div class="card-btn "><a href="#" class="link-base link-acento">Ver gente buena</a></div>
+        </div>
+      </div> 
+    </div>
+
+
+    <div class="fondo-acento">
+      <div class="container grid action">
+        <div class="action-contenido flow">
+          <h2 class="fs-800 ff-bold mayuscula color-oscuro">Cita previa.</h2>
+          <p>Rellena el formulario y te contactaremos pronto. La respuesta a tu solicitud será en horario comercial y por orden de llegada. Si tienes mucha prisa, por favor, llama directamente a la clínica: 928292455</p>
+        </div>
+        <div class="action-btn">
+          <button class="btn-base btn-invertido">Solicitar cita previa</button>
         </div>
       </div>
     </div>
