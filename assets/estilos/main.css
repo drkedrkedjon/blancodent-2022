@@ -28,7 +28,7 @@
 body {
   line-height: 1.5;
   font-family: var(--ff-book);
-  font-size: var(--fs-400);
+  font-size: var(--fs-500);
   color: hsla(var(--clr-oscuro));
   background-color: hsla(var(--clr-claro));
   min-height: 100vh;
@@ -132,6 +132,10 @@ body {
   text-transform: uppercase;
 }
 
+.centrar {
+  text-align: center;
+}
+
 /* Colores */
 
 .fondo-blanco {
@@ -184,6 +188,13 @@ body {
   max-width: 72rem;
   margin-inline: auto;
   padding-inline: 0.8rem;
+  padding-block: 3rem;
+}
+
+@media (min-width: 62rem) {
+  .container {
+    padding-block: 6rem;
+  }
 }
 
 /* Esta clase sirve para ocultar visualmente el contenido que usan 
@@ -282,7 +293,7 @@ los usuarios con problema visual*/
 }
 
 .card-btn {
-  margin-block: 1rem;
+  margin-top: 1rem;
   align-self: center;
 }
 
@@ -328,12 +339,11 @@ los usuarios con problema visual*/
 /*  Acción bloque */
 
 .action {
-  padding-block: 2rem;
   grid-template-columns: 1fr;
 }
 
 .action-btn {
-  margin-block: 1rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -348,7 +358,58 @@ los usuarios con problema visual*/
   }
 }  
 
+/* Promoción */
 
+.promo {
+  background-image: url('../images/imagen-prueba.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo-texto {
+  text-align: center;
+  
+}
+
+.promo-texto::before {
+  content: '“';  
+}
+
+.promo-texto::after {
+  content: '”';
+}
+
+@media(min-width: 40rem) {
+  .promo-texto {
+    padding-inline: 3rem;
+  }
+}
+
+@media(min-width: 62rem) {
+  .promo-texto {
+    padding-inline: 6rem;
+  }
+}
+
+/* Por qué Blancodent */
+
+.por-que-container {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 4rem;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+/* Bloque de los detalles */
+
+.bloque-detalles {
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
 
 
 
