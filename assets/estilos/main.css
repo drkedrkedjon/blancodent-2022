@@ -326,6 +326,7 @@ los usuarios con problema visual*/
   .card-container {
     flex-wrap: wrap;
     flex-direction: row;
+    gap: 2rem;
   }
   .card {
     flex-basis: 16rem;
@@ -360,8 +361,15 @@ los usuarios con problema visual*/
 
 /* Promoción */
 
-.promo {
-  background-image: url('../images/imagen-prueba.jpeg');
+.promo-uno {
+  background-image: url('../images/home-page/promo-uno.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.promo-dos {
+  background-image: url('../images/home-page/promo-dos.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -382,7 +390,7 @@ los usuarios con problema visual*/
 
 @media(min-width: 40rem) {
   .promo-texto {
-    padding-inline: 3rem;
+    padding-inline: 6rem;
   }
 }
 
