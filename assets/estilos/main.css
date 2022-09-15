@@ -25,14 +25,7 @@
   font-style: normal;
 }
 
-body {
-  line-height: 1.5;
-  font-family: var(--ff-book);
-  font-size: var(--fs-500);
-  color: hsla(var(--clr-oscuro));
-  background-color: hsla(var(--clr-claro));
-  min-height: 100vh;
-}
+
 
 /* Quitar las animaciones y transiciones para las personas que lo han solicitado en su navegador o sistema operativo, se trata de uma medida de accesibilidad */
 
@@ -78,9 +71,19 @@ body {
   }
 }
 
+
 /* -----------------------------
   Clases útiles generales
 ----------------------------- */
+
+body {
+  line-height: 1.5;
+  font-family: var(--ff-book);
+  font-size: var(--fs-500);
+  color: hsla(var(--clr-oscuro));
+  background-color: hsla(var(--clr-claro));
+  min-height: 100vh;
+}
 
 /* Font family */
 
@@ -187,13 +190,13 @@ body {
 .container {
   max-width: 72rem;
   margin-inline: auto;
-  padding-inline: 0.8rem;
+  padding-inline: 1rem;
   padding-block: 3rem;
 }
 
 @media (min-width: 62rem) {
   .container {
-    padding-block: 6rem;
+    padding-block: 9rem;
   }
 }
 
@@ -361,23 +364,27 @@ los usuarios con problema visual*/
 
 /* Promoción */
 
-.promo-uno {
-  background-image: url('../images/home-page/promo-uno.jpeg');
+.promo {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.promo-uno {
+  background-image: url('../images/home-page/promo-uno.jpeg');
 }
 
 .promo-dos {
   background-image: url('../images/home-page/promo-dos.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .promo-texto {
   text-align: center;
-  
+}
+
+.promo > .container {
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
 .promo-texto::before {
@@ -419,7 +426,59 @@ los usuarios con problema visual*/
   gap: 6rem;
 }
 
+/* Mapa */
+
+.mapa-container {
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 48rem) {
+  .mapa-container {
+    flex-direction: row;
+    
+  }
+}
+
+@media (min-width: 62rem) {
+  .mapa-container {
+    gap: 6rem;
+  }
+}
 
 
+/* Footer */
 
+.footer-grid {
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  font-size: var(--fs-400);
+}
+
+.footer-gap {
+  --flow-espacio: 1rem;
+}
+
+.seg-menu {
+  color: hsla(var(--clr-acento));
+}
+
+.footer-condiciones .link-base {
+  margin-block: 2rem;
+}
+
+@media (min-width: 35rem) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-condiciones {
+    grid-column: 1/-1;
+  }
+}
+
+@media ( min-width: 52rem) {
+ .footer-grid {
+  grid-template-columns: repeat(4, 1fr);
+ }
+}
 
