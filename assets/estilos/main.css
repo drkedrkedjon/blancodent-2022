@@ -177,6 +177,11 @@ body {
   margin-top: var(--flow-espacio, 1rem);
 }
 
+.filtro-blur {
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
@@ -382,11 +387,6 @@ los usuarios con problema visual*/
   text-align: center;
 }
 
-.promo > .container {
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
-}
-
 .promo-texto::before {
   content: '“';  
 }
@@ -482,3 +482,25 @@ los usuarios con problema visual*/
  }
 }
 
+/* Blog */
+
+.blog-container {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  row-gap: 3rem;
+  column-gap: 1rem;
+}
+
+.btn-blog {
+  justify-self: center;
+}
+
+.blog-card-media{
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.blog-card-media > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
