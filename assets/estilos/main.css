@@ -305,7 +305,7 @@ los usuarios con problema visual*/
   align-self: center;
 }
 
-@media(min-width: 40rem) and (max-width: 61.999rem) {
+@media(min-width: 44rem) and (max-width: 61.999rem) {
   .card {
     flex-direction: row;
     gap: 2rem;
@@ -503,4 +503,26 @@ los usuarios con problema visual*/
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+/* Servicios y así somos página agrupada */
+
+.container-pagina-agrupada {
+  grid-template-columns: 1fr;
+  row-gap: 2rem;
+}
+
+@media(min-width: 44rem) and (max-width: 61.999rem) {
+
+  .container-pagina-agrupada :nth-child(even) .card-media {
+    order: 1;
+  }
+}
+
+@media ( min-width: 62rem) {
+  .container-pagina-agrupada {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: 6rem;
+  }
 }
