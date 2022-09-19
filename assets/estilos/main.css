@@ -43,7 +43,7 @@
 /*  Variables */
 :root {
   /* font sizes */
-  --fs-900: 3.052rem;
+  /* --fs-900: 3.052rem;
   --fs-800: 2.441rem;
   --fs-700: 1.953rem;
   --fs-600: 1.563rem;
@@ -51,7 +51,17 @@
   --fs-400: 1rem;
   --fs-300: 0.8rem;
   --fs-200: 0.64rem;
-  --fs-100: 0.512rem;
+  --fs-100: 0.512rem; */
+
+  --fs-100: clamp(0.51rem, -0.02vw + 0.52rem, 0.5rem);
+  --fs-200: clamp(0.64rem, 0.05vw + 0.63rem, 0.67rem);
+  --fs-300: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+  --fs-400: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+  --fs-500: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+  --fs-600: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+  --fs-700: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+  --fs-800: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+  --fs-900: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
 
   /*  font families */
   --ff-bold: "cooper_hewittsemibold", serif;
@@ -83,6 +93,9 @@ body {
   color: hsla(var(--clr-oscuro));
   background-color: hsla(var(--clr-claro));
   min-height: 100vh;
+  /* -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; */
 }
 
 /* Font family */
@@ -525,4 +538,32 @@ los usuarios con problema visual*/
     column-gap: 2rem;
     row-gap: 6rem;
   }
+}
+
+/* Página única */
+
+.pagina-unica {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.pagina-unica h3 {
+  --flow-espacio: 3rem;
+}
+
+@media ( min-width: 44rem) {
+  .pagina-unica{
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media ( min-width: 62rem) {
+  .pagina-unica {
+    gap: 6rem;
+  }
+}
+
+.pagina-unica-lateral {
+  flex-direction: column;
+  align-items: center;
 }
