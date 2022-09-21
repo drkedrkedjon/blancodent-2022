@@ -361,6 +361,113 @@ los usuarios con problema visual*/
 /* Hero bloque */
 
 .carrusel {
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+@media (min-width:44rem) {
+.carrusel {
+  grid-template-columns: 50px auto 50px;
+  grid-template-rows: repeat(2, auto);
+}
+}
+
+.english-btn {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  justify-self: end;
+}
+
+.slide-media {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
+@media (min-width:44rem) {
+ .slide-media {
+  grid-row: 2 / -1;
+  grid-column: 2 / -2;
+  aspect-ratio: 12/9;
+ } 
+}
+
+.slide-media > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.slide-contenido {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+
+  gap: 0.3rem;
+  justify-items: end;
+  align-content: center;
+
+  text-align: right;
+  background-color: hsla(var(--clr-negro) / 0.4 );
+  border: 0.1px solid hsla(var(--clr-claro) / 0.2);
+  padding: 2rem 0.8rem;
+  border-radius: 1rem;
+}
+
+
+@media (min-width:44rem) {
+ .slide-contenido {
+    grid-row: 2 / -1;
+    grid-column: 2 / -2;
+ } 
+}
+
+.slide-btn-minus,
+.slide-btn-plus {
+  display: grid;
+  place-items: center;
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: hsla(var(--clr-claro) / 0.3);
+  cursor: pointer;
+  color: hsla(var(--clr-acento));
+}
+
+.slide-btn-minus {
+  grid-row: 3 / -1;
+  grid-column: 1 / 2;
+  justify-self: right;
+}
+.slide-btn-plus {
+  grid-row: 3 / -1;
+  grid-column: 2 / -1;
+  justify-self: left;
+}
+
+@media (min-width:44rem) {
+  .slide-btn-minus {
+     grid-row: -2 / -1;
+     grid-column: 1 / 2;
+     align-self: center;
+  } 
+  .slide-btn-plus {
+    grid-row: -2 / -1;
+    grid-column: -2 / -1;
+    align-self: center;
+
+ } 
+ }
+ 
+
+/* .carrusel {
   text-align: right;
   max-width: 72rem;
   margin-inline: auto;
@@ -403,16 +510,11 @@ los usuarios con problema visual*/
   grid-column: 1 / -1;
   grid-row: 1 / -1;
   width: 100%;
-  /* aspect-ratio: 12/9; */
+
   border-radius: 1rem;
 }
 
-/* @media (min-width: 44rem) {
-  .slide-media {
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-  }
-} */
+
 
 @media (min-width: 62rem) {
   .slide-media{
@@ -476,7 +578,7 @@ los usuarios con problema visual*/
   .slide-btn {
     width: 200px;
   }
-}
+} */
 
 
 
