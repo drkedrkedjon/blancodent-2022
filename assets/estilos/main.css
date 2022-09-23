@@ -467,7 +467,7 @@ los usuarios con problema visual*/
  }
  
 
-/* .carrusel {
+.carrusel {
   text-align: right;
   max-width: 72rem;
   margin-inline: auto;
@@ -578,7 +578,7 @@ los usuarios con problema visual*/
   .slide-btn {
     width: 200px;
   }
-} */
+}
 
 
 
@@ -799,4 +799,68 @@ los usuarios con problema visual*/
   list-style-type: disc;
   margin-left: 2rem;
   line-height: 1.7;
+}
+
+/* Imágenes página única */
+
+.imagen-pagina-unica-uno {
+  background-image: url(../images/servicios/imagen-uno.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-dos {
+  background-image: url(../images/servicios/imagen-dos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-tres {
+  background-image: url(../images/servicios/imagen-tres.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-cuatro {
+  background-image: url(../images/servicios/imagen-cuatro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-cinco {
+  background-image: url(../images/servicios/imagen-cinco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-seis {
+  background-image: url(../images/servicios/imagen-seis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.imagen-pagina-unica-siete {
+  background-image: url(../images/servicios/imagen-siete.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-ocho {
+  background-image: url(../images/servicios/imagen-prueba.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.imagen-pagina-unica-nueve {
+  background-image: url(../images/servicios/imagen-nueve.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-asi-somos {
+  background-image: url(../images/servicios/imagen-nueve.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
