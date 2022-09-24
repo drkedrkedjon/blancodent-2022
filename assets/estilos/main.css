@@ -195,6 +195,11 @@ body {
   backdrop-filter: blur(3px);
 }
 
+.filtro-brillo {
+  -webkit-backdrop-filter: brightness(60%);
+  backdrop-filter: brightness(60%);
+}
+
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
@@ -467,7 +472,7 @@ los usuarios con problema visual*/
  }
  
 
-.carrusel {
+/* .carrusel {
   text-align: right;
   max-width: 72rem;
   margin-inline: auto;
@@ -578,7 +583,7 @@ los usuarios con problema visual*/
   .slide-btn {
     width: 200px;
   }
-}
+} */
 
 
 
@@ -766,6 +771,10 @@ los usuarios con problema visual*/
 }
 
 /* Página única */
+
+.container-titulo {
+  max-width: 50rem;
+}
 
 .pagina-unica {
   grid-template-columns: 1fr;
