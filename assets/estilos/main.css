@@ -195,6 +195,11 @@ body {
   backdrop-filter: blur(3px);
 }
 
+.filtro-brillo {
+  -webkit-backdrop-filter: brightness(60%);
+  backdrop-filter: brightness(60%);
+}
+
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
@@ -803,6 +808,10 @@ los usuarios con problema visual*/
 
 /* Página única */
 
+.container-titulo {
+  max-width: 50rem;
+}
+
 .pagina-unica {
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -827,4 +836,76 @@ los usuarios con problema visual*/
 .pagina-unica-lateral {
   flex-direction: column;
   align-items: center;
+}
+
+/* Lista de texto general */
+
+.lista-texto-general {
+  list-style-type: disc;
+  margin-left: 2rem;
+  line-height: 1.7;
+}
+
+/* Imágenes página única */
+
+.imagen-pagina-unica-uno {
+  background-image: url(../images/servicios/imagen-uno.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-dos {
+  background-image: url(../images/servicios/imagen-dos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-tres {
+  background-image: url(../images/servicios/imagen-tres.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-cuatro {
+  background-image: url(../images/servicios/imagen-cuatro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-cinco {
+  background-image: url(../images/servicios/imagen-cinco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-seis {
+  background-image: url(../images/servicios/imagen-seis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.imagen-pagina-unica-siete {
+  background-image: url(../images/servicios/imagen-siete.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-ocho {
+  background-image: url(../images/servicios/imagen-prueba.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.imagen-pagina-unica-nueve {
+  background-image: url(../images/servicios/imagen-nueve.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-asi-somos {
+  background-image: url(../images/servicios/imagen-nueve.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
