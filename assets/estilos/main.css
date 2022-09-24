@@ -806,6 +806,20 @@ los usuarios con problema visual*/
   }
 }
 
+.container-asi-somos {
+  grid-template-columns: repeat(auto-fit, minmax( 1fr));
+  gap: 4rem;
+}
+
+.container-horarios {
+  grid-template-columns: repeat(auto-fit, minmax( 1fr));
+  gap: 4rem;
+}
+
+.container-mapa {
+  --flow-espacio: 3rem;
+}
+
 /* Página única */
 
 .container-titulo {
@@ -909,3 +923,10 @@ los usuarios con problema visual*/
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.imagen-pagina-unica-transporte {
+  background-image: url(../images/asi-somos/transporte-uno.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
