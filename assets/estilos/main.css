@@ -784,7 +784,7 @@ los usuarios con problema visual*/
   object-fit: cover;
 }
 
-/* Servicios y así somos página agrupada */
+/* Servicios y así somos página agrupada y containers */
 
 .container-pagina-agrupada {
   grid-template-columns: 1fr;
@@ -806,7 +806,23 @@ los usuarios con problema visual*/
   }
 }
 
-/* Página única */
+.container-imagenes {
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.container-horarios {
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  gap: 4rem;
+
+}
+
+.container-mapa {
+  --flow-espacio: 3rem;
+}
+
+
+
+/* Páginas únicas */
 
 .container-titulo {
   max-width: 50rem;
@@ -836,6 +852,31 @@ los usuarios con problema visual*/
 .pagina-unica-lateral {
   flex-direction: column;
   align-items: center;
+}
+
+.imagenes-media {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.imagenes-media > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.personal-media {
+  width: 100%;
+}
+
+.personal-media > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-personal > div {
+  flex: 1 1 50%
 }
 
 /* Lista de texto general */
@@ -909,3 +950,10 @@ los usuarios con problema visual*/
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.imagen-pagina-unica-transporte {
+  background-image: url(../images/asi-somos/transporte-uno.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
