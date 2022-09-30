@@ -879,6 +879,12 @@ los usuarios con problema visual*/
   flex: 1 1 50%
 }
 
+/* Blog */
+
+.blog-flow > h1 {
+  margin-bottom: 2rem;
+}
+
 /* Lista de texto general */
 
 .lista-texto-general {
