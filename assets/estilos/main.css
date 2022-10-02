@@ -25,6 +25,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "morganite";
+  src: url("/assets/fonts/morganite/Morganite-Bold.woff2")
+      format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 
 /* Quitar las animaciones y transiciones para las personas que lo han solicitado en su navegador o sistema operativo, se trata de uma medida de accesibilidad */
@@ -64,6 +72,7 @@
   --fs-900: clamp(3.05rem, 3.54vw + 2.17rem, 5rem); */
 
   /*  font families */
+  /* --ff-bold: "morganite", serif; */
   --ff-bold: "cooper_hewittsemibold", serif;
   --ff-book: "cooper_hewittbook", serif;
 
