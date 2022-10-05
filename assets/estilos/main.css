@@ -302,47 +302,6 @@ los usuarios con problema visual*/
 
 /* Tarjeta */
 
- /* Menu and Header*/
-
- .header-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-   max-width: 72rem;
-   margin-inline: auto;
-   padding-inline: 1rem;
-   padding-block: 1rem;
-
- }
-
- .header-logo {
-  max-width: 50px;
- }
- 
- .header-nav a {
-   border-block-end: 3px solid var(--border-color, transparent);
-   /* color: hsla(var(--clr-oscuro)); */
-   display: inline-block;
-   margin-block-end: 0.5rem; 
-   margin-inline-end: 0.5rem;
-   padding: 0.1rem;
-  }
-  
-  .header-nav a:where(:hover, :focus) {
-   --border-color: hsla(var(--clr-oscuro));
- }
-
- [aria-current="page"] {
-  --border-color: hsla(var(--clr-oscuro));
- }
-
- .header-lista {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
- }
-  
- 
 
 .card-container {
   flex-direction: column;
