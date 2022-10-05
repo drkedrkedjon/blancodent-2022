@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blanqueamiento</title>
-    <link rel="stylesheet" href="../assets/estilos/main.css" />
-    <script src="../assets/scripts/main.js"></script>
+    <link rel="stylesheet" href="/assets/estilos/main.css" />
+    <script defer src="/assets/scripts/main.js"></script>
   </head>
   <body>
     <!-- ENCABEZADO -->
@@ -16,9 +16,8 @@
         <img
           class="header-logo"
           src="/assets/images/logo.png"
-          alt="Logo circular con un diente en el centro de varios colores"
-        />
-        <nav class="header-nav">
+          alt="Logo circular: un diente en el centro de varios colores"/>
+        <nav class="header-nav" id="main-nav" aria-label="Main">
           <ul class="header-lista" role="list">
             <li><a href="/index.html">Inicio</a></li>
             <li><a href="/servicios/servicios.html" aria-current="page">Servicios</a></li>
@@ -31,6 +30,13 @@
             <li><button class="link-base link-invertido">Llamanos/Call us</button></li>
           </ul>
         </nav>
+        <template id="burger-template">
+          <button id="burger-btn" type="button" aria-expanded="false" aria-label="Menu" aria-controls="main-nav">
+            <svg width="24" height="24" aria-hidden="true">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+            </svg>
+          </button>
+        </template>
       </div>
     </header>
 
