@@ -90,6 +90,14 @@
   }
 }
 
+*:focus {
+  outline: none;
+}
+*:focus-visible {
+  outline: 2px solid var(--color-shades-dark);
+  outline-offset: 4px;
+}
+
 
 /* -----------------------------
   Clases útiles generales
