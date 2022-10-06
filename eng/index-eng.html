@@ -6,19 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clínica Dental Blancodent - Las Palmas de G.C.</title>
-    <link rel="stylesheet" href="../assets/estilos/main.css" />
-    <script defer type="module" src="../assets/scripts/main.js"></script>
+    <link rel="stylesheet" href="/assets/estilos/main.css" />
+    <script defer src="/assets/scripts/main.js"></script>
   </head>
   <body>
-    <!-- Encabezado -->
+    <!-- ENCABEZADO -->
 
-    <div style="height: 80px;" class="fondo-acento">sasa</div>
+    <header class="fondo-acento">
+      <div class="header-menu">
+        <img
+          class="header-logo"
+          src="/assets/images/logo.png"
+          alt="Logo circular: un diente en el centro de varios colores"/>
+        <nav class="header-nav" id="main-nav" aria-label="Main">
+          <ul class="header-lista" role="list">
+            <li><a href="/eng/index-eng.html" aria-current="page">Home</a></li>
+            <li><a href="/eng/index-eng.html#eng-services">Services</a></li>
+            <li><a href="/eng/index-eng.html#eng-about">About Clinic</a></li>
+            <li><a href="/eng/offers.html">Offers</a></li>
+            <li><a href="/eng/opening-hours.html">Opening Hours</a></li>
+            <li><a href="/eng/location.html">Location</a></li>
+            <li><a href="/eng/appointment.html">Appointment</a></li>
+            <li><button class="link-base link-invertido">Call us !</button></li>
+          </ul>
+        </nav>
+        <template id="burger-template">
+          <button id="burger-btn" type="button" aria-expanded="false" aria-label="Menu" aria-controls="main-nav">
+            <svg width="24" height="24" aria-hidden="true">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+            </svg>
+          </button>
+        </template>
+      </div>
+    </header>
 
     <!-- Hero Sección -->
 
     <section class="fondo-oscuro">
       <div class="carrusel grid">
-        <a class="english-btn link-base link-acento ff-bold" href="#">English version</a>
+        <a class="english-btn link-base link-acento ff-bold" href="/index.html">Versión español</a>
         <div class="slide-media">
           <img src="/assets/images/servicios/blanqueamiento.png" alt="">
         </div>
@@ -38,7 +64,7 @@
 
     <!-- Our services -->
 
-    <section class="fondo-claro">
+    <section class="fondo-claro" id="eng-services">
       <div class="container flex bloque-detalles">
         <h2 class="fs-900 ff-bold mayuscula centrar">Our services.</h2>
 
@@ -146,7 +172,7 @@
 
     <!-- Sobre la clínica -->
 
-    <section class="fondo-claro">
+    <section class="fondo-claro" id="eng-about">
       <div class="container flex bloque-detalles">
         <h2 class="fs-900 ff-bold mayuscula centrar">About the clinic.</h2>
 
