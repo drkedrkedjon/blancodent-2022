@@ -6,31 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bruxismo</title>
     <link rel="stylesheet" href="../assets/estilos/main.css" />
-    <script src="../assets/scripts/main.js"></script>
+    <script  defer src="/assets/scripts/main.js"></script>
   </head>
   <body>
 
   <!-- Encabezado -->
-
-  <!-- Home -->
-
-  <section class="imagen-pagina-unica-cinco">
-    <div class="filtro-brillo">
-      <div class="container container-titulo grid centrar">
-        <h1 class="fs-900 ff-bold color-claro mayuscula">Bruxismo/atm</h1>
-        <h2 class="fs-500 ff-bold color-claro mayuscula">El bruxismo puede ser una afección muy grave y dolorosa que puede causar daños con el tiempo.</h2>
+    <header class="fondo-acento">
+      <div class="header-menu">
+        <img class="header-logo" src="/assets/images/logo.png" alt="Logo circular con un diente de varios colores">
+        <nav id="main-nav" class="header-nav" aria-label="Main">
+          <ul class="header-lista" role="list">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/servicios/servicios.html" aria-current="page">Servicios</a></li>
+            <li><a href="/asi-somos/asi-somos.html">Así somos</a></li>
+            <li><a href="/varios/ofertas.html">Ofertas</a></li>
+            <li><a href="/asi-somos/horarios.html">Horarios</a></li>
+            <li><a href="/asi-somos/ubicacion.html">Ubicación</a></li>
+            <li><a href="/varios/varios.html">Varios</a></li>
+            <li><a href="/varios/cita-previa.html">Cita previa</a></li>
+            <li><button class="link-base link-invertido">LLámanos/Call us</button></li>
+          </ul>
+        </nav>
+        <template id="burger-template">
+          <button id="burger-btn" type="button" aria-expanded="false" aria-label="Menu" aria-controls="main-nav">
+            <svg width="24" height="24" aria-hidden="true">
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+            </svg>
+          </button>
+        </template>
       </div>
-    </div>
-  </section>
+      
+      
+    </header>
+    
+    <!-- Hero section -->
+
+    <section class="imagen-pagina-unica-cinco">
+      <div class="filtro-brillo">
+        <div class="container container-titulo grid centrar">
+          <h1 class="fs-900 ff-bold color-claro mayuscula">Bruxismo/atm</h1>
+          <h2 class="fs-500 ff-bold color-claro mayuscula">El bruxismo puede ser una afección muy grave y dolorosa que puede causar daños con el tiempo.</h2>
+        </div>
+      </div>
+    </section>
+
 
   <!-- Bruxismo -->
 
   <main class="fondo-claro">
     <article class="container grid pagina-unica">
+      <div class="flow pagina-unica-lateral flex">
       <div class="card-media">
-        <img src="../assets/images/Servicios/bruxismo.png" alt="" />
+        <img src="/assets/images/Servicios/bruxismo.png" alt="" />
       </div>
+      </div>
+
+
         <div class="flow">
+
           <h3 class="fs-600 ff-bold mayuscula">¿Qué es el bruxismo o rechinar de dientes y por qué es tan malo?</h3>
           <p>
             Esencialmente, el rechinar de dientes es exactamente lo que parece: apretar, rechinar los dientes a menudo, sin ser completamente conscientes de nuestras acciones, especialmente durante la noche.
@@ -178,7 +211,7 @@
               utilización de este servicio se lleva a cabo bajo la propia
               responsabilidad del usuario.
             </p>
-            <a href="#" class="link-base link-acento">Nota legal</a>
+            <a href="/varios/nota-legal.html" class="link-base link-acento">Nota legal</a>
           </div>
         </div>
       </footer>
