@@ -5,13 +5,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Images and videos</title>
-  <link rel="stylesheet" href="../assets/estilos/main.css">
-  <script src="../assets/scripts/main.js"></script>
+  <link rel="stylesheet" href="/assets/estilos/main.css" />
+  <script defer src="/assets/scripts/main.js"></script>
 </head>
 <body>
+  <!-- ENCABEZADO -->
 
-    <!-- Encabezado -->
-
+  <header class="fondo-acento">
+    <div class="header-menu">
+      <img
+        class="header-logo"
+        src="/assets/images/logo.png"
+        alt="Logo circular: un diente en el centro de varios colores"/>
+      <nav class="header-nav" id="main-nav" aria-label="Main">
+        <ul class="header-lista" role="list">
+          <li><a href="/eng/index-eng.html">Home</a></li>
+          <li><a href="/eng/index-eng.html#eng-services">Services</a></li>
+          <li><a href="/eng/index-eng.html#eng-about" aria-current="page">About Clinic</a></li>
+          <li><a href="/eng/offers.html">Offers</a></li>
+          <li><a href="/eng/opening-hours.html">Opening Hours</a></li>
+          <li><a href="/eng/location.html">Location</a></li>
+          <li><a href="/eng/appointment.html">Appointment</a></li>
+          <li><button class="link-base link-invertido">Call us !</button></li>
+        </ul>
+      </nav>
+      <template id="burger-template">
+        <button id="burger-btn" type="button" aria-expanded="false" aria-label="Menu" aria-controls="main-nav">
+          <svg width="24" height="24" aria-hidden="true">
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z">
+          </svg>
+        </button>
+      </template>
+    </div>
+  </header>
   <!-- Home -->
 
   <section class="imagen-pagina-unica-cuatro">
@@ -33,35 +59,35 @@
       <div class=" grid container-imagenes">
 
         <div class="imagenes-media">
-         <img src="../assets/images/asi-somos/imagen-uno copia.png" alt="">
+         <img src="/assets/images/asi-somos/imagen-uno copia.png" alt="">
         </div>
 
         <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-dos copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-dos copia.png" alt="">
          </div>
 
          <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-tres copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-tres copia.png" alt="">
          </div>
 
          <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-cuatro copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-cuatro copia.png" alt="">
          </div>
 
          <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-cinco copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-cinco copia.png" alt="">
          </div>
 
          <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-seis copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-seis copia.png" alt="">
          </div>
 
          <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-siete copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-siete copia.png" alt="">
          </div>
 
          <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-nueve copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-nueve copia.png" alt="">
          </div>
 
       </div>
@@ -74,11 +100,11 @@
       <div class=" grid container-imagenes">
 
         <div class="imagenes-media">
-         <img src="../assets/images/asi-somos/imagen-uno copia.png" alt="">
+         <img src="/assets/images/asi-somos/imagen-uno copia.png" alt="">
         </div>
 
         <div class="imagenes-media">
-          <img src="../assets/images/asi-somos/imagen-dos copia.png" alt="">
+          <img src="/assets/images/asi-somos/imagen-dos copia.png" alt="">
          </div>
       </div>
     </div>
@@ -117,23 +143,23 @@
       </div>
 
       <div class=" footer-gap footer-horarios flow centrar">
-        <h3 class="fs-600 ff-bold mayuscula color-acento">Horarios:</h3>
+        <h3 class="fs-600 ff-bold mayuscula color-acento">Opening Hours:</h3>
         <div>
-          <p class="ff-bold color-claro">Lunes:</p>
+          <p class="ff-bold color-claro">Monday:</p>
           <p class="color-claro">09:30h - 16:00h</p>
-          <p class="ff-bold color-claro">Martes:</p>
+          <p class="ff-bold color-claro">Tuesday:</p>
           <p class="color-claro">14:00 - 20:00h</p>
-          <p class="ff-bold color-claro">Miércoles:</p>
+          <p class="ff-bold color-claro">Wednesday:</p>
           <p class="color-claro">09:30h - 16:00h</p>
-          <p class="ff-bold color-claro">Jueves:</p>
+          <p class="ff-bold color-claro">Thursday:</p>
           <p class="color-claro">14:00 - 20:00h</p>
-          <p class="ff-bold color-claro">Viernes:</p>
+          <p class="ff-bold color-claro">Friday:</p>
           <p class="color-claro">09:30h - 16:00h</p>
         </div>
       </div>
 
       <div class=" footer-gap footer-ubicacion flow centrar">
-        <h3 class="color-acento fs-600 ff-bold mayuscula">Dirección:</h3>
+        <h3 class="color-acento fs-600 ff-bold mayuscula">Address:</h3>
         <p class="color-claro">
           Av. Mesa y López, 1 - 1ª<br />
           35006 Las Palmas de G.C.<br />
@@ -142,9 +168,12 @@
       </div>
 
       <div class=" footer-gap footer-condiciones centrar">
-        <h4 class="fs-400 mayuscula color-claro ff-bold">Condiciones de uso del servicio (Página web)</h4>
-        <p class="color-claro fs-300">La información de este medio no puede sustituir un servicio de atención medica directa, así como tampoco se hará ninguna recomendación sobre productos, técnicas, fármacos , etc… La utilización de este servicio se lleva a cabo bajo la propia responsabilidad del usuario.</p>
-        <a href="#" class="link-base link-acento">Nota legal</a>
+        <h4 class="fs-400 mayuscula color-claro ff-bold">CONDITIONS OF USE OF THE SERVICE (WEB PAGE)</h4>
+        <p class="color-claro fs-300">The information in this medium cannot replace a direct medical care service, nor will any recommendation be made on products, techniques, drugs, etc... The use of this service is carried out at the user's own risk.</p>
+        <a href="/varios/nota-legal.html" class="link-base link-acento">Nota legal</a>
       </div>
     </div>
-  </footer>
+  </footer> 
+  
+  </body>
+</html>
