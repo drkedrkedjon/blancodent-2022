@@ -98,7 +98,6 @@
   outline-offset: 4px;
 }
 
-
 /* -----------------------------
   Clases útiles generales
 ----------------------------- */
@@ -255,6 +254,9 @@ los usuarios con problema visual*/
   border: 0;
 }
 
+[href="tel:+34928292455"] {
+  text-decoration: underline;
+}
 
 /* -----------------------------
   Componentes
@@ -306,6 +308,14 @@ los usuarios con problema visual*/
 .link-invertido {
   background-color: hsla(var(--clr-oscuro));
   color: hsla(var(--clr-blanco));
+}
+
+/* Lista de texto general */
+
+.lista-texto-general {
+  list-style-type: disc;
+  margin-left: 2rem;
+  line-height: 1.7;
 }
 
 /* ************************************** */
@@ -633,122 +643,6 @@ los usuarios con problema visual*/
  }
  
 
-/* .carrusel {
-  text-align: right;
-  max-width: 72rem;
-  margin-inline: auto;
-  padding-inline: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-}
-
-@media (min-width: 62rem) {
-  .carrusel {
-    padding-bottom: 9rem;
-  }
-}
-
-
-.slide-container {
-  align-items: center;
-}
-
-.slide {
-  grid-template-columns: 1rem auto 1rem;
-  grid-template-rows: 1rem auto 1rem;
-}
-
-@media (min-width: 44rem) {
-  .slide {
-    grid-template-columns: 1rem auto 1rem;
-    grid-template-rows: 1rem auto 1rem;
-  }
-}
-
-@media (min-width: 62rem) {
-  .slide {
-    grid-template-columns: 2fr 1fr 3fr;
-    grid-template-rows: 5% auto 10%;
-  }
-}
-
-.slide-media{
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-  width: 100%;
-
-  border-radius: 1rem;
-}
-
-
-
-@media (min-width: 62rem) {
-  .slide-media{
-    grid-column: 1 / 3;
-    grid-row: 1 / -1;
-    width: 100%;
-    aspect-ratio: 9/12;
-    border-radius: 1rem;
-  } 
-}
-
-.slide-media > img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
-}
-
-.slide-contenido {
-  grid-column: 1 / -1;
-  grid-row: 1 / -1;
-
-  justify-items: end;
-  align-content: center;
-  
-  background-color: hsla(var(--clr-negro) / 0.4 );
-  border: 0.1px solid hsla(var(--clr-claro) / 0.2);
-  padding: 0.5rem;
-  border-radius: 1rem;
-  height: 100%;
-}
-
-@media (min-width: 44rem) {
-  .slide-contenido {
-    grid-column: 2 / -2;
-    grid-row: 2 / -2;
-    padding: 2rem;
-  }
-}
-
-@media(min-width: 62rem) {
-  .slide-contenido {
-    grid-column: 2 / -1;
-    grid-row: 2 / 3;
-    background-color: hsla(var(--clr-negro) / 0.3 );
-  }
-}
-
-.slide-btn {
-  display: grid;
-  place-items: center;
-  width: 150px;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  background-color: hsla(var(--clr-claro) / 0.3);
-  cursor: pointer;
-  color: hsla(var(--clr-acento));
-}
-
-@media (min-width: 62rem) {
-  .slide-btn {
-    width: 200px;
-  }
-} */
-
-
-
-
 /*  Acción bloque */
 
 .action {
@@ -1010,13 +904,25 @@ los usuarios con problema visual*/
   margin-bottom: 2rem;
 }
 
-/* Lista de texto general */
+/* Cita previa */
 
-.lista-texto-general {
-  list-style-type: disc;
-  margin-left: 2rem;
-  line-height: 1.7;
+.cita-previa > div {
+  display: flex;
+  flex-direction: column;
 }
+.form-input {
+  width: 100%;
+  border: 1px solid hsla(var(--clr-oscuro)/ 0.5);
+  padding-block: 0.4rem;
+  padding-inline: 1rem;
+  background-color: hsla(var(--clr-blanco));
+}
+.form-input::placeholder {
+  color: hsla(var(--clr-oscuro)/ 0.5);
+}
+/* .form-input:required {
+  border-color: red;
+} */
 
 /* Imágenes página única */
 
@@ -1084,6 +990,12 @@ los usuarios con problema visual*/
 
 .imagen-pagina-unica-transporte {
   background-image: url(../images/asi-somos/transporte-uno.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imagen-pagina-unica-cita-previa {
+  background-image: url(/assets/images/varios/cita-previa.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
