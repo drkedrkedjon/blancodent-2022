@@ -6,25 +6,6 @@
 
 @import "the-new-css-reset.css";
 
-/* @font-face {
-  font-family: "cooper_hewittbook";
-  src: url("../fonts/cooper-hewitt/cooperhewitt-book-webfont.woff2")
-      format("woff2"),
-    url("../fonts/cooper-hewitt/cooperhewitt-book-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "cooper_hewittsemibold";
-  src: url("../fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff2")
-      format("woff2"),
-    url("../fonts/cooper-hewitt/cooperhewitt-semibold-webfont.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
-} */
-
 @font-face {
   font-family: "morganite";
   src: url("/assets/fonts/morganite/Morganite-Bold.woff2")
@@ -65,8 +46,8 @@
 :root {
   /* font sizes */
   --fs-900: 6rem;
-  --fs-800: 4rem;
-  --fs-700: 3rem;
+  --fs-800: 5rem;
+  --fs-700: 4rem;
   /* --fs-900: 3.052rem;
   --fs-800: 2.441rem;
   --fs-700: 1.953rem; */
@@ -882,7 +863,7 @@ los usuarios con problema visual*/
 .container-horarios {
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   gap: 4rem;
-
+  max-width: 65rem;
 }
 
 .container-mapa {
@@ -948,6 +929,24 @@ los usuarios con problema visual*/
   flex: 1 1 50%
 }
 
+.personal-child-dir {
+  justify-items: center;
+  text-align: center;
+  max-width: 55rem;
+}
+.personal-child-dir > * {
+  align-items: center;
+}
+.personal-child-dir :nth-child(even) {
+  flex-direction: row-reverse;
+}
+@media (max-width: 48rem) {
+  .personal-child-dir > *,
+  .personal-child-dir :nth-child(even) {
+    flex-direction: column;
+  }
+}
+
 /* Blog */
 
 .blog-flow > h1 {
@@ -980,36 +979,42 @@ los usuarios con problema visual*/
   background-image: url(../images/servicios/imagen-uno.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-dos {
   background-image: url(../images/servicios/imagen-dos.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-tres {
   background-image: url(../images/servicios/imagen-tres.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-cuatro {
   background-image: url(../images/servicios/imagen-cuatro.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-cinco {
   background-image: url(../images/servicios/imagen-cinco.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-seis {
   background-image: url(../images/servicios/imagen-seis.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -1017,12 +1022,14 @@ los usuarios con problema visual*/
   background-image: url(../images/servicios/imagen-siete.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-ocho {
   background-image: url(../images/servicios/imagen-prueba.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 
@@ -1030,23 +1037,27 @@ los usuarios con problema visual*/
   background-image: url(../images/servicios/imagen-nueve.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-asi-somos {
   background-image: url(../images/servicios/imagen-nueve.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-transporte {
   background-image: url(../images/asi-somos/transporte-uno.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .imagen-pagina-unica-cita-previa {
   background-image: url(/assets/images/varios/cita-previa.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
