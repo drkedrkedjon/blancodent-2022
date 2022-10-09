@@ -344,7 +344,7 @@ los usuarios con problema visual*/
   border-block-end: 3px solid var(--border-color, transparent);
   /* color: hsla(var(--clr-oscuro)); */
   display: inline-block;
-  margin-block-end: 0.5rem;
+  /* margin-block-end: 0.5rem; */
   margin-inline-end: 0.5rem;
   padding: 0.1rem;
 }
@@ -417,7 +417,9 @@ los usuarios con problema visual*/
   margin-top: 1rem;
 }
 
-
+.header-lista:hover :last-child > a {
+  --border-color: hsla(var(--clr-oscuro) / 0);
+}
 
 /* ************************************** */
 /*    FIN DE MENU                         */
@@ -642,6 +644,27 @@ los usuarios con problema visual*/
  } 
  }
  
+.slide-pase {
+  visibility: hidden;
+}
+
+.slide-pase-visible {
+  visibility: visible;
+  animation: paraSlide 1000ms ease-in;
+}
+
+.slide-pase-oculta {
+  visibility: hidden;
+}
+ 
+@keyframes paraSlide {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 
 /*  Acción bloque */
 

@@ -8,6 +8,7 @@
     <title>Clínica Dental Blancodent - Las Palmas de G.C.</title>
     <link rel="stylesheet" href="/assets/estilos/main.css" />
     <script defer src="/assets/scripts/main.js"></script>
+    <script defer src="/assets/scripts/carousel.js"></script>
   </head>
   <body>
     <!-- ENCABEZADO -->
@@ -27,7 +28,7 @@
             <li><a href="/eng/opening-hours.html">Opening Hours</a></li>
             <li><a href="/eng/location.html">Location</a></li>
             <li><a href="/eng/appointment.html">Appointment</a></li>
-            <li><button class="link-base link-invertido">Call us !</button></li>
+            <li><a href="tel:+34928292455"><button class="link-base link-invertido">Call Us !</button></a></li>
           </ul>
         </nav>
         <template id="burger-template">
@@ -48,17 +49,42 @@
         <div class="slide-media">
           <img src="/assets/images/servicios/blanqueamiento.png" alt="">
         </div>
-        <article class="slide-contenido grid">
-          <h2 class="mayuscula ff-bold fs-700 color-acento">
-            50% DESCUENTO BLANQUEAMIENTO
-          </h2>
-          <h3 class="color-blanco ff-bold fs-600 mayuscula">DIENTES BLANCOS Y SONRISA FELIZ</h3>
-          <p class="color-blanco">¡Aprovecha nuestra oferta de verano! Válido hasta el 31 de Aprovecha nuestra oferta de verano! Válido hasta el 31 de agosto. ¡Aprovecha nuestra oferta de verano! Válido hasta el 31 de agosto.¡Aprovecha nuestra oferta de verano</p>
-          <a href="#" class="saber-btn link-base link-acento ff-bold">Saber más ...</a>
-        </article>
 
-        <div class="slide-btn-minus color-claro ff-bold fs-700"> - </div>
-        <div class="slide-btn-plus color-claro ff-bold fs-700"> + </div>
+                <!-- Slide pase 1 -->
+                <article class="slide-contenido grid slide-pase slide-pase-visible">
+                  <h2 class="mayuscula ff-bold fs-700 color-acento">
+                    50% DISCOUNT ON TEETH WHITENING.
+                  </h2>
+                  <h3 class="color-blanco ff-bold fs-600 mayuscula">WHITE TEETH AND A HAPPY SMILE</h3>
+                  <p class="color-blanco">
+                    White teeth, healthy mouth and happy smile. Take advantage of our offer or give it to your loved ones. You can get the discount by going to the clinic or contact us to make an appointment.</p>
+                  <a href="/eng/appointment.html" class="saber-btn link-base link-acento ff-bold">Appointment form...</a>
+                </article>
+        
+                <!-- Slide pase 2 -->
+                <article class="slide-contenido grid slide-pase">
+                  <h2 class="mayuscula ff-bold fs-700 color-acento">
+                    COVID-19
+                  </h2>
+                  <h3 class="color-blanco ff-bold fs-600 mayuscula">
+                    THE MOST IMPORTANT THING FOR US IS THE HEALTH OF OUR PATIENTS.</h3>
+                  <p class="color-blanco">We are taking all the safety and protection measures recommended by the Ministry of Health and the Council of Dentists.</p>
+                  <a href="/eng/covid-19.html" class="saber-btn link-base link-acento ff-bold">Read more...</a>
+                </article>
+        
+                <!-- Slide pase 3 -->
+                <article class="slide-contenido grid slide-pase">
+                  <h2 class="mayuscula ff-bold fs-700 color-acento">
+                    Biomaterial
+                  </h2>
+                  <h3 class="color-blanco ff-bold fs-600 mayuscula">YOUR OWN TOOTH AS A BIOMATERIAL.
+                    TAKE ADVANTAGE OF YOUR OWN EXTRACTED TOOTH AS A SOURCE OF BIOMATERIAL TO IMPROVE THE HEALING OF YOUR IMPLANT.</h3>
+                  <p class="color-blanco">Especially indicated for cases in which there is not enough bone in the patient's jaw, which is associated with a high risk of implant loss.</p>
+                  <a href="/varios/cita-previa.html" class="saber-btn link-base link-acento ff-bold">Appointment form...</a>
+                </article>
+
+                <button id="btn-slide-menos" class="slide-btn-minus color-claro ff-bold fs-700"> - </button>
+                <button id="btn-slide-plus" class="slide-btn-plus color-claro ff-bold fs-700"> + </button>
       </div>
     </section>
 

@@ -1,3 +1,5 @@
+// NAVEGACION
+
 const nav = document.querySelector('#main-nav')
 const list = nav.querySelector('ul');
 // Con .content copiamos contenido de <template> y con .cloneNode(true) lo clonamo. Con true, los hijos tambien
