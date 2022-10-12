@@ -45,6 +45,7 @@
 /*  Variables */
 :root {
   /* font sizes */
+  --fs-titulo: 8rem;
   --fs-900: 6rem;
   --fs-800: 5rem;
   --fs-700: 4rem;
@@ -127,6 +128,10 @@ body {
 }
 
 /*  Font size */
+
+.fs-titulo {
+  font-size: var(--fs-titulo);
+}
 
 .fs-900 {
   font-size: var(--fs-900);
@@ -509,6 +514,38 @@ los usuarios con problema visual*/
 }
 
 /* Hero bloque */
+
+.h1-titulo {
+  max-width: 80vw;
+  margin: auto;
+  font-family: var(--ff-bold);
+  color: hsla(var(--clr-claro));
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 0.8;
+  padding-block-start: 3rem;
+}
+
+@media (min-width: 26rem) {
+  .h1-titulo {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 44rem) {
+  .h1-titulo {
+    font-size: 7rem;
+    padding-block-start: 4rem;
+  }
+}
+
+@media (min-width: 62rem) {
+  .h1-titulo {
+    font-size: var(--fs-titulo);
+    line-height: 1;
+  }
+}
 
 .carrusel {
   max-width: 72rem;
