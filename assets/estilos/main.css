@@ -1012,80 +1012,80 @@ los usuarios con problema visual*/
 
 /* Imágenes página única */
 
-.imagen-pagina-unica-uno {
-  background-image: url(../images/servicios/imagen-uno.png);
+.imagen-pagina-unica-implantologia {
+  background-image: url(/assets/images/fondos/fondo-7.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.imagen-pagina-unica-dos {
-  background-image: url(../images/servicios/imagen-dos.png);
+.imagen-pagina-unica-higiene {
+  background-image: url(/assets/images/fondos/fondo-9.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.imagen-pagina-unica-tres {
-  background-image: url(../images/servicios/imagen-tres.png);
+.imagen-pagina-unica-protesis {
+  background-image: url(/assets/images/fondos/fondo-8.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.imagen-pagina-unica-cuatro {
-  background-image: url(../images/servicios/imagen-cuatro.png);
+.imagen-pagina-unica-endodoncia {
+  background-image: url(/assets/images/fondos/fondo-6.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.imagen-pagina-unica-cinco {
-  background-image: url(../images/servicios/imagen-cinco.png);
+.imagen-pagina-unica-conservadora {
+  background-image: url(/assets/images/fondos/fondo-5.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.imagen-pagina-unica-seis {
-  background-image: url(../images/servicios/imagen-seis.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-
-.imagen-pagina-unica-siete {
-  background-image: url(../images/servicios/imagen-siete.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.imagen-pagina-unica-ocho {
-  background-image: url(../images/servicios/imagen-prueba.jpeg);
+.imagen-pagina-unica-bruxismo {
+  background-image: url(/assets/images/fondos/fondo-4.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 
-.imagen-pagina-unica-nueve {
-  background-image: url(../images/servicios/imagen-nueve.png);
+.imagen-pagina-unica-blanqueamiento {
+  background-image: url(/assets/images/fondos/fondo-3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagen-pagina-servicio {
+  background-image: url(/assets/images/fondos/fondo-2.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.imagen-pagina-imagenes {
+  background-image: url(/assets/images/fondos/fondo-9.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .imagen-asi-somos {
-  background-image: url(../images/servicios/imagen-nueve.png);
+  background-image: url(/assets/images/fondos/fondo-1.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .imagen-pagina-unica-transporte {
-  background-image: url(../images/asi-somos/transporte-uno.jpeg);
+  background-image: url(/assets/images/fondos/fondo-transporte.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1093,6 +1093,13 @@ los usuarios con problema visual*/
 
 .imagen-pagina-unica-cita-previa {
   background-image: url(/assets/images/varios/cita-previa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagen-pagina-unica-horarios {
+  background-image: url(/assets/images/asi-somos/horarios.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
