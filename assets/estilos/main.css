@@ -742,11 +742,11 @@ los usuarios con problema visual*/
 }
 
 .promo-uno {
-  background-image: url('../images/home-page/promo-uno.jpeg');
+  background-image: url('/assets/images/home-page/promo-uno.jpg');
 }
 
 .promo-dos {
-  background-image: url('../images/home-page/promo-dos.jpeg');
+  background-image: url('/assets/images/home-page/promo-dos.jpg');
 }
 
 .promo-texto {
