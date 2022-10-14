@@ -49,10 +49,6 @@
   --fs-900: 6rem;
   --fs-800: 5rem;
   --fs-700: 4rem;
-  /* --fs-900: 3.052rem;
-  --fs-800: 2.441rem;
-  --fs-700: 1.953rem; */
-  
   --fs-600: 1.563rem;
   --fs-500: 1.25rem;
   --fs-400: 1rem;
@@ -60,22 +56,10 @@
   --fs-200: 0.64rem;
   --fs-100: 0.512rem;
 
-  /* --fs-100: clamp(0.51rem, -0.02vw + 0.52rem, 0.5rem);
-  --fs-200: clamp(0.64rem, 0.05vw + 0.63rem, 0.67rem);
-  --fs-300: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
-  --fs-400: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-  --fs-500: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
-  --fs-600: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
-  --fs-700: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
-  --fs-800: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
-  --fs-900: clamp(3.05rem, 3.54vw + 2.17rem, 5rem); */
-
   /*  font families */
-  --ff-bold: "morganite", serif;
-  /* --ff-semi: "cooper_hewittsemibold", serif;
-  --ff-book: "cooper_hewittbook", serif; */
-  --ff-semi: "figtree-bold", serif;
-  --ff-book: "figtree-book", serif;
+  --ff-bold: "morganite", sans-serif;
+  --ff-semi: "figtree-bold", sans-serif;
+  --ff-book: "figtree-book", sans-serif;
 
   /* Paleta de colores */
   --clr-blanco: 0 0% 100%;
@@ -84,12 +68,6 @@
   --clr-oscuro: 0 0% 22%;
   --clr-negro: 0 0% 0%;
 }
-
-/* @media (min-width: 36rem) {
-  :root {
-    --fs-900: 6.052rem;
-  }
-} */
 
 *:focus {
   outline: none;
@@ -110,9 +88,6 @@ body {
   color: hsla(var(--clr-oscuro));
   background-color: hsla(var(--clr-claro));
   min-height: 100vh;
-  /* -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto; */
 }
 
 /* Font family */
@@ -161,7 +136,6 @@ body {
   font-size: var(--fs-100);
 }
 
-.fs-900,
 .fs-800,
 .fs-700,
 .fs-600 {
