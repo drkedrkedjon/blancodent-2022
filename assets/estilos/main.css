@@ -1066,7 +1066,7 @@ los usuarios con problema visual*/
 }
 
 .imagen-pagina-unica-cita-previa {
-  background-image: url(/assets/images/varios/cita-previa.png);
+  background-image: url(/assets/images/varios/cita-previa.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1079,3 +1079,23 @@ los usuarios con problema visual*/
   background-position: center;
 }
 
+.imagen-pagina-unica-ofertas {
+  background-image: url(/assets/images/varios/ofertas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagen-pagina-unica-ubicacion {
+  background-image: url(/assets/images/varios/localizacion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagen-pagina-unica-personal {
+  background-image: url(/assets/images/varios/personal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
