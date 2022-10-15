@@ -868,7 +868,7 @@ los usuarios con problema visual*/
 }
 
 .container-imagenes {
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .container-horarios {
