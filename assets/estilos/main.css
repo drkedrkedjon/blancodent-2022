@@ -424,12 +424,13 @@ los usuarios con problema visual*/
 
 .card {
   flex-direction: column;
-
 }
 
 .card-media{
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
+  overflow: hidden;
 }
 
 .card-media > img {
@@ -556,6 +557,8 @@ los usuarios con problema visual*/
   grid-row: 2 / 3;
   grid-column: 1 / -1;
   width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 
 @media (min-width:44rem) {
@@ -836,7 +839,9 @@ los usuarios con problema visual*/
 
 .blog-card-media{
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
+  overflow: hidden;
 }
 
 .blog-card-media > img {
@@ -917,7 +922,9 @@ los usuarios con problema visual*/
 
 .imagenes-media {
   width: 100%;
+  height: auto;
   aspect-ratio: 16/9;
+  overflow: hidden;
 }
 
 .imagenes-media > img {
