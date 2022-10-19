@@ -841,7 +841,6 @@ los usuarios con problema visual*/
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
-  overflow: hidden;
 }
 
 .blog-card-media > img {
