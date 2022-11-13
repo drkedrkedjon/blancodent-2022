@@ -1,244 +1,147 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-	<loc>https://blancodent.com/</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://blancodent.com/index.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/index.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://blancodent.com/eng/index.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/servicios.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/offers.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/asi-somos/asi-somos.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/opening-hours.html</loc>
+</url> 
+<url>
+  <loc>https://blancodent.com/eng/location.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/ofertas.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/appointment.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/asi-somos/horarios.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/periodontics.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/asi-somos/ubicacion.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/covid-19.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/varios.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/implantology.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/cita-previa.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/orthodontics.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/index.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.9</priority>
+  <loc>https://blancodent.com/eng/staff.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/periodoncia.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/images.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/biomaterial.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/eng/blog/for-residents.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/covid-19.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/blog/sailing.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/implantologia.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/eng/blog/frequent-questions.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/ortodoncia.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/servicios.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/asi-somos/personal.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/asi-somos/asi-somos.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/asi-somos/imagenes.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/ofertas.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/laser-dental.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/asi-somos/ubicacion.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/anestesia.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/varios/blog/blog.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/para-los-peques.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/varios/covid-19.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/para-los-fumadores.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/varios/nota-legal.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/mal-aliento.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/asi-somos/horarios.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/blog/blog.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/varios/varios.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/appointment.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/cita-previa.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/offers.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/periodoncia.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/nota-legal.html</loc>
-	<lastmod>2022-10-30T20:51:32+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/blog/biomaterial.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/blanqueamiento.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/implantologia.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/bruxismo.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/ortodoncia.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/odontologia-conservadora.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/asi-somos/personal.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/endodoncia.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/asi-somos/imagenes.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/protesis.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/blog/laser-dental.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/servicios/higiene.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/blog/anestesia.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/asi-somos/transporte.html</loc>
-	<lastmod>2022-10-30T20:51:34+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/blog/para-los-peques.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/colegio-oficial-de-dentista.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/blog/para-los-fumadores.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/varios/preguntas-frecuentes.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/blog/mal-aliento.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/opening-hours.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/blanqueamiento.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/location.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/bruxismo.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/periodontics.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/odontologia-conservadora.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/covid-19.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/endodoncia.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/implantology.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/protesis.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/orthodontics.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/servicios/higiene.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/staff.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/asi-somos/transporte.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/images.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://blancodent.com/varios/colegio-oficial-de-dentista.html</loc>
 </url>
 <url>
-	<loc>https://blancodent.com/eng/blog/for-residents.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://blancodent.com/varios/preguntas-frecuentes.html</loc>
 </url>
-<url>
-	<loc>https://blancodent.com/eng/blog/sailing.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://blancodent.com/eng/blog/frequent-questions.html</loc>
-	<lastmod>2022-10-30T20:51:36+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://blancodent.com/eng//index.html</loc>
-	<lastmod>2022-10-30T20:51:42+01:00</lastmod>
-	<priority>0.8</priority>
-</url>
-<url>
-	<loc>https://blancodent.com/eng/</loc>
-	<lastmod>2022-10-30T20:51:42+01:00</lastmod>
-	<priority>0.9</priority>
-</url>
+
+
 </urlset>
