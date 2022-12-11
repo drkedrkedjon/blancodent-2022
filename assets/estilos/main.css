@@ -579,7 +579,7 @@ los usuarios con problema visual*/
 /* Hero bloque */
 
 .h1-titulo {
-  max-width: 80vw;
+  max-width: 72rem;
   margin: auto;
   font-family: var(--ff-bold);
   color: hsla(var(--clr-claro));
@@ -588,6 +588,9 @@ los usuarios con problema visual*/
   text-transform: uppercase;
   line-height: 0.8;
   padding-block-start: 3rem;
+}
+.sub-h1 {
+  font-size: 3rem;
 }
 
 @media (min-width: 26rem) {
@@ -601,12 +604,14 @@ los usuarios con problema visual*/
     font-size: 7rem;
     padding-block-start: 4rem;
   }
+  .sub-h1 {
+    font-size: 4rem;
+  }
 }
 
 @media (min-width: 62rem) {
   .h1-titulo {
     font-size: var(--fs-titulo);
-    line-height: 1;
   }
 }
 
